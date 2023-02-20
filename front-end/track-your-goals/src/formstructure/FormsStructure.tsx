@@ -1,5 +1,5 @@
 import './styles/FormsStructure.css'
-function FormsStructure({ display }: any) {
+function FormsStructure() {
     return (
         <div className='formsStructure'>
             <div className='titleForms'>
