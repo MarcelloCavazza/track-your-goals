@@ -1,20 +1,22 @@
 import { useState } from 'react'
 import './App.css'
-import LoginPage from './loginpage/LoginPage'
-import SingUpPage from './loginpage/SingUpPage'
+import DoneGoals from './DoneGoals/DoneGoals'
+import LoginOrSignUpPage from './LoginOrSignUpPage/LoginOrSignUpPage'
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
 
   return (
     <div className="App">
-      <div style={{ display: isAuthenticated ? "none" : "block" }}>
-        <LoginPage />
+      <div id='title'>
+        Track your goals!
       </div>
       <div style={{ display: isAuthenticated ? "none" : "block" }}>
-        <SingUpPage />
+        <LoginOrSignUpPage />
       </div>
-      <div style={{ display: isAuthenticated ? "block" : "none" }}>
+      {/* style={{ display: isAuthenticated ? "block" : "none" }} */}
+      <div >
+        <DoneGoals />
       </div>
     </div >
   )

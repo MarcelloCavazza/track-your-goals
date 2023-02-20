@@ -1,0 +1,8 @@
+.App {
+  margin: 10px;
+}
+#title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 5em;
+}
