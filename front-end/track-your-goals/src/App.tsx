@@ -11,9 +11,12 @@ function App() {
       <div id='title'>
         Track your goals!
       </div>
-      <div style={{ display: isAuthenticated ? "none" : "block" }}>
-        <LoginOrSignUpPage />
+      <div id='subtitle'>
+        Insert your today's accomplishements, because life is a battle field.<br /> A win is a win, give yourself a pat on the back!
       </div>
+      {/* <div style={{ display: isAuthenticated ? "none" : "block" }}>
+        <LoginOrSignUpPage />
+      </div> */}
       {/* style={{ display: isAuthenticated ? "block" : "none" }} */}
       <div >
         <DoneGoals />
