@@ -3,7 +3,7 @@ function FormsStructure() {
     return (
         <div className='formsStructure'>
             <div className='titleForms'>
-                Login Or Sign Up
+                Login or Sign Up
             </div>
             <div>
                 <label htmlFor="userName">Insert your name:</label><br />
