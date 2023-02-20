@@ -7,11 +7,11 @@ function FormsStructure() {
             </div>
             <div>
                 <label htmlFor="userName">Insert your name:</label><br />
-                <input type="text" name="userName" id="userName" />
+                <input type="text" name="userName" placeholder='user name here' id="userName" />
             </div>
             <div>
                 <label htmlFor="userName">Insert a password:</label><br />
-                <input type="text" name="userName" id="userName" />
+                <input type="password" placeholder='password here' name="userName" id="userName" />
             </div>
             <div className="center ">
                 <button className='buttonForms' type="button">Login</button>
