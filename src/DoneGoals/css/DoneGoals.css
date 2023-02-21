@@ -39,3 +39,6 @@ ul {
   flex-direction: column;
   align-items: center;
 }
+#inputOfAccomplishements {
+  color: black;
+}
