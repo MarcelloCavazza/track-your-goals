@@ -1,0 +1,9 @@
+.removeButton {
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  color: rgb(202, 202, 202);
+
+  transition: width 2s;
+}
